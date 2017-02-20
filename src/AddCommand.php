@@ -82,9 +82,7 @@ class AddCommand extends Command
     protected function installLangDirectory($directory)
     {
         if (! is_dir($directory)) {
-            (new Filesystem)->makeDirectory(
-                $directory, 0755, true
-            );
+            mkdir($directory, 0755, true);
         }
 
         return $this;
