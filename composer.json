@@ -1,0 +1,25 @@
+{
+    "name": "nerdify/laraveles-lang-installer",
+    "description": "Command line installer for https://github.com/Laraveles/lang-spanish.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hosmel Quintana",
+            "email": "hosmelq@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Nerdify\\Lang\\Installer\\Console\\": "src/"
+        }
+    },
+    "bin": [
+        "laraveles-lang"
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~4.0|~5.0|~6.0",
+        "illuminate/filesystem": "~5.1|~5.2|~5.3|~5.4",
+        "symfony/console": "~2.3|~3.0",
+        "symfony/process": "~2.3|~3.0"
+    }
+}
