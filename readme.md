@@ -8,7 +8,7 @@ The generated files are based in https://github.com/Laraveles/lang-spanish.
 You can install the package via composer:
 
 ``` bash
-composer global require nerdify/laraveles-lang-installer
+composer global require laraveles/lang-installer
 ```
 
 Make sure to place the `$HOME/.composer/vendor/bin` directory in your $PATH so the `laraveles-lang` executable can be located by your system.

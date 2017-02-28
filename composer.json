@@ -1,5 +1,5 @@
 {
-    "name": "nerdify/laraveles-lang-installer",
+    "name": "laraveles/lang-installer",
     "description": "Command line installer for https://github.com/Laraveles/lang-spanish.",
     "license": "MIT",
     "authors": [
@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Nerdify\\Lang\\Installer\\Console\\": "src/"
+            "Laraveles\\Lang\\Installer\\Console\\": "src/"
         }
     },
     "bin": [

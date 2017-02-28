@@ -9,6 +9,6 @@ if (file_exists(__DIR__.'/../../autoload.php')) {
 
 $app = new Symfony\Component\Console\Application('Laraveles Lang Installer', '1.0.0');
 
-$app->add(new Nerdify\Lang\Installer\Console\AddCommand());
+$app->add(new Laraveles\Lang\Installer\Console\AddCommand());
 
 $app->run();

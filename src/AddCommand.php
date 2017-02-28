@@ -1,9 +1,8 @@
 <?php
 
-namespace Nerdify\Lang\Installer\Console;
+namespace Laraveles\Lang\Installer\Console;
 
 use GuzzleHttp\Client;
-use Illuminate\Filesystem\Filesystem;
 use RuntimeException;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
